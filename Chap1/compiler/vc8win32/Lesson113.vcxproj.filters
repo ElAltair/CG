@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10c9c036-97cf-4792-b9b7-7b33661aa396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{450cb06b-dd79-4493-ad55-e7c7ba3b0cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User_Reports">
+      <UniqueIdentifier>{072dd562-c76a-4f01-af67-d2714fbd9fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cloth">
+      <UniqueIdentifier>{475be706-5bb1-45d9-a2ea-4e55962c43c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{518e0d2a-6438-4896-9c3e-ec05b378ba69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\win">
+      <UniqueIdentifier>{abf68a1a-a7a0-44e2-b29f-6974eb6b62ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\User_Reports">
+      <UniqueIdentifier>{54a824a5-3a2a-4794-90f6-7d453ecb40a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\Cloth">
+      <UniqueIdentifier>{f82a3bea-b19e-4d9c-8ae4-017213951e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{15e0c24a-424c-48bf-a6ca-a823db22e20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs">
+      <UniqueIdentifier>{09890621-6c3f-407d-8d3b-534ffde7bfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib">
+      <UniqueIdentifier>{7cddc6a7-d28f-464a-b3ef-93de726bcc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib\Win32">
+      <UniqueIdentifier>{b1fe8a0b-248d-4077-aa6d-1f5bf2a6ce67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics">
+      <UniqueIdentifier>{4c8f2320-a805-4798-9bd4-0faedda83256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib">
+      <UniqueIdentifier>{143186a1-8b55-4063-a2e5-787fc9c4b1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32">
+      <UniqueIdentifier>{b4311b02-66f4-4abf-98a4-ab6468d2f6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32\glut">
+      <UniqueIdentifier>{bc5e5499-11a2-4d3e-bdc2-e4dd028c5e22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Lesson113\source\Lesson113.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Actors.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\DrawObjects.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\GLFontRenderer.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\HUD.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Stream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\UserData.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\MediaPath_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\Timing_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\UserAllocator.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Cloth\BmpLoader.cpp">
+      <Filter>Common Files\Cloth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Cloth\MyCloth.cpp">
+      <Filter>Common Files\Cloth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Cloth\wavefront.cpp">
+      <Filter>Common Files\Cloth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Shared_Source\DrawObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson113\source\Lesson113.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.h">
+      <Filter>Header Files\User_Reports</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\Cloth\MyCloth.h">
+      <Filter>Header Files\Cloth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\NxCharacter.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXCooking.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXLoader.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Graphics\lib\win32\glut\glut32.lib">
+      <Filter>libs\Graphics\lib\win32\glut</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2357e6f2-ca07-4ded-af35-fba5df35588e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4da3322f-c87e-4ef3-82b7-b4a5fdab32f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User_Reports">
+      <UniqueIdentifier>{d22d2d83-9519-434e-b41b-3c0504196932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{15a21150-5551-4498-add9-7555f8e5e574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\win">
+      <UniqueIdentifier>{bdf11d32-52dc-40a1-b21f-2b58dc025326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\User_Reports">
+      <UniqueIdentifier>{e3be177f-5721-4b48-bd72-27d65f086614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{550ff944-efc6-4533-8881-150d1ba1c74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs">
+      <UniqueIdentifier>{45d72790-79f7-4a4b-b1e9-51a995eaba38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib">
+      <UniqueIdentifier>{acca6b5a-d8e2-4028-8217-44a5d9fcf758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib\Win32">
+      <UniqueIdentifier>{6515ef60-c79b-4b78-b6f6-dd18965a51ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics">
+      <UniqueIdentifier>{252b7721-1a07-4dd4-b75d-c5fab166fd94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib">
+      <UniqueIdentifier>{ecf7a5af-f971-4cbe-ad58-d39593a9f039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32">
+      <UniqueIdentifier>{ef8d7b5e-773e-49c4-8fd5-0aeab9e687b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32\glut">
+      <UniqueIdentifier>{84e16a78-170d-433a-a98e-11637c95b11b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Lesson101\source\Lesson101.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\DrawObjects.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\GLFontRenderer.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\HUD.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\MediaPath_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\Timing_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lesson101\source\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lesson101\source\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lesson101\source\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lesson101\source\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Shared_Source\DrawObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson101\source\Lesson101.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.h">
+      <Filter>Header Files\User_Reports</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson101\source\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson101\source\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson101\source\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\NxCharacter.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXCooking.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXLoader.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Graphics\lib\win32\glut\glut32.lib">
+      <Filter>libs\Graphics\lib\win32\glut</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AppSettings.xml" />
+  </ItemGroup>
+</Project>

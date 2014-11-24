@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e229e1b7-b18e-43bc-8e21-b1b1d40fba27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6f576bd5-3a54-47c2-a6cd-d81ca37b9b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User_Reports">
+      <UniqueIdentifier>{a2b84b1b-ad2b-40df-a31f-212c8c00150e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{2dd69087-6caf-4130-b5c4-de8f78858bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\win">
+      <UniqueIdentifier>{3ec905dd-e8bf-46c2-88bb-4a6f127e9dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\User_Reports">
+      <UniqueIdentifier>{dab027c0-b8ea-4671-b5e8-42e511fddd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\ForceField">
+      <UniqueIdentifier>{ae1e38c4-d92d-482d-ae4c-c91e29d4cc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{5ef3895c-dc72-4e30-a2af-fb55b1b1e454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs">
+      <UniqueIdentifier>{63181336-edf9-4e11-a2ba-85909a60b73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib">
+      <UniqueIdentifier>{6059dfe5-9a57-4251-aa3f-3b3cc433b845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib\Win32">
+      <UniqueIdentifier>{582c5866-b126-4c8b-841b-2f3776d6a203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics">
+      <UniqueIdentifier>{ff6e4ec4-3855-4b55-9dab-9f8d081cf752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib">
+      <UniqueIdentifier>{5d9b1802-2aeb-4841-906b-e6f1d06b1f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32">
+      <UniqueIdentifier>{8609769e-e6b2-4026-8a07-55baf0f8b201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32\glut">
+      <UniqueIdentifier>{d4fe9250-eeaa-4c02-aeb9-4e0a52c5a61e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Lesson116\source\Lesson116.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\DrawObjects.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\GLFontRenderer.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\HUD.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Stream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\UserData.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\MediaPath_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\Timing_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\UserAllocator.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\ForceField\ExplosionSample.cpp">
+      <Filter>Common Files\ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\ForceField\VortexSample.cpp">
+      <Filter>Common Files\ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\ForceField\WindSample.cpp">
+      <Filter>Common Files\ForceField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Shared_Source\DrawObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson116\source\Lesson116.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.h">
+      <Filter>Header Files\User_Reports</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\NxCharacter.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXCooking.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXLoader.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Graphics\lib\win32\glut\glut32.lib">
+      <Filter>libs\Graphics\lib\win32\glut</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9974250b-b359-4e31-bc09-67260fd0edde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bf98bbbb-f36f-49b1-9140-64af8a888839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User_Reports">
+      <UniqueIdentifier>{d0468be2-465f-4bd2-b1a6-2194df713c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{f48f022a-235e-4353-8d59-6a66137bd7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\win">
+      <UniqueIdentifier>{ab824862-2866-416d-884d-89af0dca41c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\User_Reports">
+      <UniqueIdentifier>{784977b5-4824-4cce-b240-025eaced70a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{3954a3a4-729f-4755-b1a9-0aba2cca3163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs">
+      <UniqueIdentifier>{a58a10f8-7325-4b9a-8df2-28c3cd9d9070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib">
+      <UniqueIdentifier>{21ba7033-b703-4b41-8ba2-54f3b5c654d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\SDKs\lib\Win32">
+      <UniqueIdentifier>{1873c553-1623-430f-9553-21eb03388be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics">
+      <UniqueIdentifier>{06d4c888-2723-4322-95ca-23e243b83062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib">
+      <UniqueIdentifier>{dbdad806-c249-4a68-a473-32a1cd62372a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32">
+      <UniqueIdentifier>{8495d7c2-8812-4d83-8bf5-10483b24d86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Graphics\lib\win32\glut">
+      <UniqueIdentifier>{d4ad81c5-3fe5-4541-8fdc-889b2f5ba357}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Lesson108\source\Lesson108.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\DrawObjects.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\GLFontRenderer.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\HUD.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\Stream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\UserData.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\MediaPath_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\win\Timing_WIN.cpp">
+      <Filter>Common Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared_Source\User_Reports\UserAllocator.cpp">
+      <Filter>Common Files\User_Reports</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Shared_Source\DrawObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lesson108\source\Lesson108.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared_Source\User_Reports\DebugRenderer.h">
+      <Filter>Header Files\User_Reports</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\NxCharacter.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXCooking.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\SDKs\lib\Win32\PhysXLoader.lib">
+      <Filter>libs\SDKs\lib\Win32</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Graphics\lib\win32\glut\glut32.lib">
+      <Filter>libs\Graphics\lib\win32\glut</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

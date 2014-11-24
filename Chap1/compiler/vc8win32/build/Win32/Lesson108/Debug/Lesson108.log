@@ -1,0 +1,20 @@
+﻿Build started 23.10.2014 13:19:12.
+     1>Project "C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson108.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../../SDKs/Foundation/include /I../../../../../SDKs/Physics/include /I../../../../../SDKs/Cooking/include /I../../../../../SDKs/PhysXLoader/include /I../../../../../SDKs/NxCharacter/include /I../../../Shared_Source /I../../../Shared_Source/User_Reports /I../../../Shared_Source/Timer /I../../../Shared_Source/win /I../../../../../Graphics/include/win32 /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./build/Win32/Lesson108/Debug\\" /Fd"./build/Win32/Lesson108/Debug\vc120.pdb" /FR"./build/Win32/Lesson108/Debug\\" /Gd /TP /analyze- /errorReport:prompt /Od /MTd /Zi  ..\..\Lesson108\source\Lesson108.cpp ..\..\..\Shared_Source\DrawObjects.cpp ..\..\..\Shared_Source\GLFontRenderer.cpp ..\..\..\Shared_Source\HUD.cpp ..\..\..\Shared_Source\Stream.cpp ..\..\..\Shared_Source\UserData.cpp ..\..\..\Shared_Source\win\MediaPath_WIN.cpp ..\..\..\Shared_Source\win\Timing_WIN.cpp ..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp ..\..\..\Shared_Source\User_Reports\UserAllocator.cpp
+     1>cl : Command line warning D9025: overriding '/MD' with '/MTd'
+         Lesson108.cpp
+     1>C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Shared_Source\HUD.h(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         DrawObjects.cpp
+         GLFontRenderer.cpp
+         HUD.cpp
+         Stream.cpp
+         UserData.cpp
+         MediaPath_WIN.cpp
+         Timing_WIN.cpp
+     1>Done Building Project "C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson108.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.69

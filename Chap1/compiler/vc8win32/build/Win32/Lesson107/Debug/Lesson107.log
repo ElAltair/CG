@@ -1,0 +1,40 @@
+﻿Build started 23.10.2014 13:19:10.
+     1>Project "C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson107.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../../SDKs/Foundation/include /I../../../../../SDKs/Physics/include /I../../../../../SDKs/Cooking/include /I../../../../../SDKs/PhysXLoader/include /I../../../../../SDKs/NxCharacter/include /I../../../Shared_Source /I../../../Shared_Source/User_Reports /I../../../Shared_Source/Timer /I../../../Shared_Source/win /I../../../../../Graphics/include/win32 /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./build/Win32/Lesson107/Debug\\" /Fd"./build/Win32/Lesson107/Debug\vc120.pdb" /FR"./build/Win32/Lesson107/Debug\\" /Gd /TP /analyze- /errorReport:prompt /Od /MTd /Zi  ..\..\Lesson107\source\Lesson107.cpp ..\..\..\Shared_Source\DrawObjects.cpp ..\..\..\Shared_Source\GLFontRenderer.cpp ..\..\..\Shared_Source\HUD.cpp ..\..\..\Shared_Source\Stream.cpp ..\..\..\Shared_Source\win\MediaPath_WIN.cpp ..\..\..\Shared_Source\win\Timing_WIN.cpp ..\..\..\Shared_Source\User_Reports\DebugRenderer.cpp
+     1>cl : Command line warning D9025: overriding '/MD' with '/MTd'
+         Lesson107.cpp
+     1>C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Shared_Source\HUD.h(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         DrawObjects.cpp
+         GLFontRenderer.cpp
+         HUD.cpp
+         Stream.cpp
+         MediaPath_WIN.cpp
+         Timing_WIN.cpp
+         DebugRenderer.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\../../../../../bin/Win32\Lesson107.exe) does not match the Linker's OutputFile property value (C:\Users\Влад\Desktop\PhysX Tutorials\bin\Win32\Lesson107_DEBUG.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Lesson107) does not match the Linker's OutputFile property value (Lesson107_DEBUG). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../../bin/Win32\Lesson107_DEBUG.exe" /NOLOGO /LIBPATH:../../../../../Graphics/lib/win32/glut /LIBPATH:../../../../../SDKs/lib/Win32 PhysXLoader.lib PhysXCooking.lib NxCharacter.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"../../../../../bin/Win32\Lesson107_DEBUG.exe.pdb" /MAP:"../../../../../bin/Win32\Lesson107_DEBUG.exe.map" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../../../../bin/Win32\Lesson107.lib" /MACHINE:X86 /SAFESEH /DEBUG  ./build/Win32/Lesson107/Debug\Lesson107.obj
+         ./build/Win32/Lesson107/Debug\DrawObjects.obj
+         ./build/Win32/Lesson107/Debug\GLFontRenderer.obj
+         ./build/Win32/Lesson107/Debug\HUD.obj
+         ./build/Win32/Lesson107/Debug\Stream.obj
+         ./build/Win32/Lesson107/Debug\MediaPath_WIN.obj
+         ./build/Win32/Lesson107/Debug\Timing_WIN.obj
+         ./build/Win32/Lesson107/Debug\DebugRenderer.obj
+         ..\..\..\..\..\SDKs\lib\Win32\NxCharacter.lib
+         ..\..\..\..\..\SDKs\lib\Win32\PhysXCooking.lib
+         ..\..\..\..\..\SDKs\lib\Win32\PhysXLoader.lib
+         ..\..\..\..\..\Graphics\lib\win32\glut\glut32.lib
+         Lesson107.vcxproj -> C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\../../../../../bin/Win32\Lesson107.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"../../../../../bin/Win32\Lesson107.bsc" /n ./build/Win32/Lesson107/Debug\Lesson107.sbr ./build/Win32/Lesson107/Debug\DrawObjects.sbr ./build/Win32/Lesson107/Debug\GLFontRenderer.sbr ./build/Win32/Lesson107/Debug\HUD.sbr ./build/Win32/Lesson107/Debug\Stream.sbr ./build/Win32/Lesson107/Debug\MediaPath_WIN.sbr ./build/Win32/Lesson107/Debug\Timing_WIN.sbr ./build/Win32/Lesson107/Debug\DebugRenderer.sbr
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(1680,5): error MSB6006: "bscmake.exe" exited with code -1073741510.
+     1>Done Building Project "C:\Users\Влад\Desktop\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson107.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.06

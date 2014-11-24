@@ -1,0 +1,9 @@
+﻿Build started 18.11.2014 8:51:05.
+     1>Project "C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson101.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         Lesson101.vcxproj -> C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\../../../../../bin/Win32\Lesson101_DEBUG.exe
+     1>Done Building Project "C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson101.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

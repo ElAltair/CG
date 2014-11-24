@@ -1,0 +1,12 @@
+﻿Build started 18.11.2014 8:51:05.
+     1>Project "C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson102.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (./build/Win32/Lesson102/Debug\) contains files shared from another project (Lesson102.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\../../../../../bin/Win32\Lesson102_DEBUG.exe) does not match the Linker's OutputFile property value (C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\bin\Win32\Lesson102_DEBUG_DEBUG.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Lesson102_DEBUG) does not match the Linker's OutputFile property value (Lesson102_DEBUG_DEBUG). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         Lesson102.vcxproj -> C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\../../../../../bin/Win32\Lesson102_DEBUG.exe
+     1>Done Building Project "C:\Users\1st\Desktop\PhysiX\PhysX Tutorials\TrainingPrograms\Programs\Chap1\compiler\vc8win32\Lesson102.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

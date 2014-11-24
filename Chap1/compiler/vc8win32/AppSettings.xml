@@ -1,0 +1,8 @@
+<level name="Settings">
+	<entity class="Graph">
+		<body GRAPHPOINTSCOUNTX="15" GRAPHPOINTSCOUNTY="15" STEP="20"/>
+	</entity>
+	<entity class="Sphere">
+		<body OBJECTSCOUNT="20" OBJECTVELOCITY="10"/>
+	</entity>
+</level>
